@@ -1,0 +1,61 @@
+<!-- http://www.maujor.com/tutorial/layout-css-passo-a-passo.php -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type">
+	<title>Teste</title>
+</head>
+<body>
+	<form method = "post" action="teste.php">
+		<table border="0">
+			<tr bgcolor="#cccccc">
+				<td width=150>Item</td>
+				<td width=15>Quantidade</td>				
+			</tr>
+
+			<tr>
+				<td>Pneus</td>
+				<td align="center">
+					<input type="text" name="tireqty" size="3">
+				</td>
+			</tr>
+			
+			<tr>
+				<td>Óleo</td>
+				<td align="center">
+					<input type="text" name="oilqtd" size="3"maxlength="3">
+				</td>
+			</tr>
+			
+
+			<tr>
+				<td>Velas</td>
+				<td align="center">
+					<input type="text" name="velasqtd" size="3" maxlength="3">
+				</td>
+			</tr>
+
+			<tr>
+				<td>Faróis</td>
+				<td align="center">
+				<input type="text" name="farolqtd" size="3" maxlength="3">
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+					<input type="submit" value="submit">
+				</td>
+			</tr>
+		</table>
+		<tr>
+			<td>Como vc achou nossa loja?</td>
+				<td><select name="find">
+					<option value="a"> Sou cliente regular</option>
+					<option value="b"> Internet</option>
+					<option value="c"> Indicação de amigos</option>
+			        </select>
+			   </td>
+		</tr>
+	</form>
+</body>
+</html>
